@@ -1,0 +1,841 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RoomCollectionViewController"
+provides-nominal:
+- "9GroupChat28RoomCollectionViewControllerC"
+provides-member:
+- ["9GroupChat28RoomCollectionViewControllerC", ""]
+provides-dynamic-lookup:
+- "SignOut"
+- "collectionView"
+- "prepare"
+- "viewDidLoad"
+depends-top-level:
+- !private "-"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Auth"
+- "CastingPrecedence"
+- !private "ChatViewController"
+- !private "DataService"
+- "IndexPath"
+- "Int"
+- !private "LoginViewController"
+- "Room"
+- !private "RoomCollectionViewCell"
+- "RoomCollectionViewController"
+- "UICollectionView"
+- "UICollectionViewCell"
+- "UICollectionViewController"
+- !private "UIStoryboard"
+- "UIStoryboardSegue"
+- !private "reuseIdentifier"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "signOut"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "item"]
+- !private ["SK", "row"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "configureCell"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "indexPath"]
+- !private ["So15CALayerDelegateP", "insertItems"]
+- !private ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "DataService"]
+- !private ["s7CVarArgP", "IndexPath"]
+- ["s7CVarArgP", "Room"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "configureCell"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "indexPath"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertItems"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "roomId"]
+- !private ["s7CVarArgP", "rooms"]
+- !private ["s7CVarArgP", "signOut"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["9GroupChat0B14ViewControllerC", "roomId"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "item"]
+- !private ["Sl", "row"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "item"]
+- !private ["SL", "row"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "DataService"]
+- !private ["s28CustomDebugStringConvertibleP", "IndexPath"]
+- ["s28CustomDebugStringConvertibleP", "Room"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "configureCell"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "indexPath"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertItems"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "roomId"]
+- !private ["s28CustomDebugStringConvertibleP", "rooms"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "item"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "DataService"]
+- !private ["s23CustomStringConvertibleP", "IndexPath"]
+- ["s23CustomStringConvertibleP", "Room"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "configureCell"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "indexPath"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertItems"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "roomId"]
+- !private ["s23CustomStringConvertibleP", "rooms"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["9GroupChat11DataServiceC", "dataService"]
+- !private ["9GroupChat11DataServiceC", "fetchDataFromServer"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "item"]
+- !private ["Se", "row"]
+- !private ["Se", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "item"]
+- !private ["SE", "row"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Auth"]
+- !private ["SQ", "DataService"]
+- !private ["SQ", "IndexPath"]
+- ["SQ", "Room"]
+- !private ["SQ", "UIStoryboard"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "auth"]
+- !private ["SQ", "collectionView"]
+- !private ["SQ", "configureCell"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dequeueReusableCell"]
+- !private ["SQ", "destination"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "identifier"]
+- !private ["SQ", "indexPath"]
+- ["SQ", "init"]
+- !private ["SQ", "insertItems"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "item"]
+- !private ["SQ", "roomId"]
+- !private ["SQ", "rooms"]
+- !private ["SQ", "row"]
+- !private ["SQ", "signOut"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "item"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "Auth"]
+- !private ["SH", "DataService"]
+- !private ["SH", "IndexPath"]
+- ["SH", "Room"]
+- !private ["SH", "UIStoryboard"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "auth"]
+- !private ["SH", "collectionView"]
+- !private ["SH", "configureCell"]
+- !private ["SH", "count"]
+- !private ["SH", "dequeueReusableCell"]
+- !private ["SH", "destination"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "identifier"]
+- !private ["SH", "indexPath"]
+- ["SH", "init"]
+- !private ["SH", "insertItems"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "item"]
+- !private ["SH", "roomId"]
+- !private ["SH", "rooms"]
+- !private ["SH", "row"]
+- !private ["SH", "signOut"]
+- !private ["SH", "subscript"]
+- !private ["SH", "viewDidLoad"]
+- !private ["10Foundation9IndexPathV", "init"]
+- !private ["10Foundation9IndexPathV", "item"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "item"]
+- !private ["SM", "row"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "Auth"]
+- !private ["So8NSCodingP", "DataService"]
+- !private ["So8NSCodingP", "IndexPath"]
+- ["So8NSCodingP", "Room"]
+- !private ["So8NSCodingP", "UIStoryboard"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "collectionView"]
+- !private ["So8NSCodingP", "configureCell"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "indexPath"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "insertItems"]
+- !private ["So8NSCodingP", "roomId"]
+- !private ["So8NSCodingP", "rooms"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- !private ["So26NSExtensionRequestHandlingP", "DataService"]
+- !private ["So26NSExtensionRequestHandlingP", "IndexPath"]
+- ["So26NSExtensionRequestHandlingP", "Room"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "collectionView"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "roomId"]
+- !private ["So26NSExtensionRequestHandlingP", "rooms"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Auth"]
+- !private ["So8NSObjectC", "ChatViewController"]
+- !private ["So8NSObjectC", "DataService"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "LoginViewController"]
+- ["So8NSObjectC", "Room"]
+- !private ["So8NSObjectC", "RoomCollectionViewCell"]
+- ["So8NSObjectC", "SignOut"]
+- ["So8NSObjectC", "UICollectionView"]
+- ["So8NSObjectC", "UICollectionViewCell"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "auth"]
+- ["So8NSObjectC", "collectionView"]
+- !private ["So8NSObjectC", "configureCell"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "destination"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "indexPath"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertItems"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "roomId"]
+- ["So8NSObjectC", "rooms"]
+- !private ["So8NSObjectC", "signOut"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Auth"]
+- !private ["So8NSObjectP", "DataService"]
+- !private ["So8NSObjectP", "IndexPath"]
+- ["So8NSObjectP", "Room"]
+- !private ["So8NSObjectP", "UIStoryboard"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "collectionView"]
+- !private ["So8NSObjectP", "configureCell"]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- !private ["So8NSObjectP", "destination"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "identifier"]
+- !private ["So8NSObjectP", "indexPath"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insertItems"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "roomId"]
+- !private ["So8NSObjectP", "rooms"]
+- !private ["So8NSObjectP", "signOut"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "item"]
+- !private ["Sk", "row"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "item"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["9GroupChat4RoomC", "id"]
+- !private ["9GroupChat22RoomCollectionViewCellC", "configureCell"]
+- !private ["9GroupChat28RoomCollectionViewControllerC", "Auth"]
+- !private ["9GroupChat28RoomCollectionViewControllerC", "ChatViewController"]
+- !private ["9GroupChat28RoomCollectionViewControllerC", "DataService"]
+- ["9GroupChat28RoomCollectionViewControllerC", "IndexPath"]
+- ["9GroupChat28RoomCollectionViewControllerC", "Int"]
+- !private ["9GroupChat28RoomCollectionViewControllerC", "LoginViewController"]
+- ["9GroupChat28RoomCollectionViewControllerC", "Room"]
+- !private ["9GroupChat28RoomCollectionViewControllerC", "RoomCollectionViewCell"]
+- ["9GroupChat28RoomCollectionViewControllerC", "SignOut"]
+- ["9GroupChat28RoomCollectionViewControllerC", "UICollectionView"]
+- ["9GroupChat28RoomCollectionViewControllerC", "UICollectionViewCell"]
+- !private ["9GroupChat28RoomCollectionViewControllerC", "UIStoryboard"]
+- ["9GroupChat28RoomCollectionViewControllerC", "UIStoryboardSegue"]
+- ["9GroupChat28RoomCollectionViewControllerC", "collectionView"]
+- ["9GroupChat28RoomCollectionViewControllerC", "deinit"]
+- !private ["9GroupChat28RoomCollectionViewControllerC", "dismiss"]
+- ["9GroupChat28RoomCollectionViewControllerC", "init"]
+- ["9GroupChat28RoomCollectionViewControllerC", "prepare"]
+- ["9GroupChat28RoomCollectionViewControllerC", "rooms"]
+- ["9GroupChat28RoomCollectionViewControllerC", "viewDidLoad"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "item"]
+- !private ["ST", "row"]
+- !private ["ST", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "configureCell"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "indexPath"]
+- !private ["So29UIAccessibilityIdentificationP", "insertItems"]
+- !private ["So12UIAppearanceP", "configureCell"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "indexPath"]
+- !private ["So12UIAppearanceP", "insertItems"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- !private ["So21UIAppearanceContainerP", "DataService"]
+- !private ["So21UIAppearanceContainerP", "IndexPath"]
+- ["So21UIAppearanceContainerP", "Room"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "collectionView"]
+- !private ["So21UIAppearanceContainerP", "configureCell"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "indexPath"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "insertItems"]
+- !private ["So21UIAppearanceContainerP", "roomId"]
+- !private ["So21UIAppearanceContainerP", "rooms"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So24UICollectionReusableViewC", "configureCell"]
+- !private ["So16UICollectionViewC", "dequeueReusableCell"]
+- !private ["So16UICollectionViewC", "indexPath"]
+- !private ["So16UICollectionViewC", "insertItems"]
+- !private ["So20UICollectionViewCellC", "configureCell"]
+- !private ["So26UICollectionViewControllerC", "Auth"]
+- !private ["So26UICollectionViewControllerC", "ChatViewController"]
+- !private ["So26UICollectionViewControllerC", "DataService"]
+- ["So26UICollectionViewControllerC", "IndexPath"]
+- ["So26UICollectionViewControllerC", "Int"]
+- !private ["So26UICollectionViewControllerC", "LoginViewController"]
+- ["So26UICollectionViewControllerC", "Room"]
+- !private ["So26UICollectionViewControllerC", "RoomCollectionViewCell"]
+- ["So26UICollectionViewControllerC", "SignOut"]
+- ["So26UICollectionViewControllerC", "UICollectionView"]
+- ["So26UICollectionViewControllerC", "UICollectionViewCell"]
+- !private ["So26UICollectionViewControllerC", "UIStoryboard"]
+- ["So26UICollectionViewControllerC", "UIStoryboardSegue"]
+- ["So26UICollectionViewControllerC", ""]
+- ["So26UICollectionViewControllerC", "collectionView"]
+- !private ["So26UICollectionViewControllerC", "dismiss"]
+- ["So26UICollectionViewControllerC", "init"]
+- ["So26UICollectionViewControllerC", "prepare"]
+- ["So26UICollectionViewControllerC", "rooms"]
+- ["So26UICollectionViewControllerC", "viewDidLoad"]
+- !private ["So26UICollectionViewDataSourceP", "Auth"]
+- !private ["So26UICollectionViewDataSourceP", "DataService"]
+- !private ["So26UICollectionViewDataSourceP", "IndexPath"]
+- ["So26UICollectionViewDataSourceP", "Room"]
+- !private ["So26UICollectionViewDataSourceP", "UIStoryboard"]
+- ["So26UICollectionViewDataSourceP", ""]
+- !private ["So26UICollectionViewDataSourceP", "collectionView"]
+- !private ["So26UICollectionViewDataSourceP", "dismiss"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "rooms"]
+- !private ["So26UICollectionViewDataSourceP", "viewDidLoad"]
+- !private ["So24UICollectionViewDelegateP", "Auth"]
+- !private ["So24UICollectionViewDelegateP", "DataService"]
+- !private ["So24UICollectionViewDelegateP", "IndexPath"]
+- ["So24UICollectionViewDelegateP", "Room"]
+- !private ["So24UICollectionViewDelegateP", "UIStoryboard"]
+- ["So24UICollectionViewDelegateP", ""]
+- !private ["So24UICollectionViewDelegateP", "collectionView"]
+- !private ["So24UICollectionViewDelegateP", "dismiss"]
+- !private ["So24UICollectionViewDelegateP", "init"]
+- !private ["So24UICollectionViewDelegateP", "rooms"]
+- !private ["So24UICollectionViewDelegateP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Auth"]
+- !private ["So18UIContentContainerP", "DataService"]
+- !private ["So18UIContentContainerP", "IndexPath"]
+- ["So18UIContentContainerP", "Room"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "collectionView"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "roomId"]
+- !private ["So18UIContentContainerP", "rooms"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "configureCell"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "indexPath"]
+- !private ["So17UICoordinateSpaceP", "insertItems"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "indexPath"]
+- !private ["So23UIDataSourceTranslatingP", "insertItems"]
+- !private ["So13UIDynamicItemP", "configureCell"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "indexPath"]
+- !private ["So13UIDynamicItemP", "insertItems"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- !private ["So18UIFocusEnvironmentP", "DataService"]
+- !private ["So18UIFocusEnvironmentP", "IndexPath"]
+- ["So18UIFocusEnvironmentP", "Room"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "collectionView"]
+- !private ["So18UIFocusEnvironmentP", "configureCell"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "indexPath"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "insertItems"]
+- !private ["So18UIFocusEnvironmentP", "roomId"]
+- !private ["So18UIFocusEnvironmentP", "rooms"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "configureCell"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "indexPath"]
+- !private ["So11UIFocusItemP", "insertItems"]
+- !private ["So20UIFocusItemContainerP", "configureCell"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "indexPath"]
+- !private ["So20UIFocusItemContainerP", "insertItems"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So30UIFocusItemScrollableContainerP", "indexPath"]
+- !private ["So30UIFocusItemScrollableContainerP", "insertItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So30UIPasteConfigurationSupportingP", "DataService"]
+- !private ["So30UIPasteConfigurationSupportingP", "IndexPath"]
+- ["So30UIPasteConfigurationSupportingP", "Room"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "collectionView"]
+- !private ["So30UIPasteConfigurationSupportingP", "configureCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "indexPath"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "insertItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "roomId"]
+- !private ["So30UIPasteConfigurationSupportingP", "rooms"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Auth"]
+- !private ["So11UIResponderC", "ChatViewController"]
+- !private ["So11UIResponderC", "DataService"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "LoginViewController"]
+- ["So11UIResponderC", "Room"]
+- !private ["So11UIResponderC", "RoomCollectionViewCell"]
+- ["So11UIResponderC", "SignOut"]
+- ["So11UIResponderC", "UICollectionView"]
+- ["So11UIResponderC", "UICollectionViewCell"]
+- !private ["So11UIResponderC", "UIStoryboard"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "collectionView"]
+- !private ["So11UIResponderC", "configureCell"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "indexPath"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "insertItems"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "roomId"]
+- ["So11UIResponderC", "rooms"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "DataService"]
+- !private ["So30UIResponderStandardEditActionsP", "IndexPath"]
+- ["So30UIResponderStandardEditActionsP", "Room"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "collectionView"]
+- !private ["So30UIResponderStandardEditActionsP", "configureCell"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "indexPath"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "insertItems"]
+- !private ["So30UIResponderStandardEditActionsP", "roomId"]
+- !private ["So30UIResponderStandardEditActionsP", "rooms"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "indexPath"]
+- !private ["So12UIScrollViewC", "insertItems"]
+- !private ["So20UIScrollViewDelegateP", "Auth"]
+- !private ["So20UIScrollViewDelegateP", "DataService"]
+- !private ["So20UIScrollViewDelegateP", "IndexPath"]
+- ["So20UIScrollViewDelegateP", "Room"]
+- !private ["So20UIScrollViewDelegateP", "UIStoryboard"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "collectionView"]
+- !private ["So20UIScrollViewDelegateP", "dismiss"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "roomId"]
+- !private ["So20UIScrollViewDelegateP", "rooms"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "indexPath"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "insertItems"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- !private ["So16UIStateRestoringP", "DataService"]
+- !private ["So16UIStateRestoringP", "IndexPath"]
+- ["So16UIStateRestoringP", "Room"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "collectionView"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "roomId"]
+- !private ["So16UIStateRestoringP", "rooms"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So21UITableViewDataSourceP", "roomId"]
+- !private ["So19UITableViewDelegateP", "roomId"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- !private ["So18UITraitEnvironmentP", "DataService"]
+- !private ["So18UITraitEnvironmentP", "IndexPath"]
+- ["So18UITraitEnvironmentP", "Room"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "collectionView"]
+- !private ["So18UITraitEnvironmentP", "configureCell"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "indexPath"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "insertItems"]
+- !private ["So18UITraitEnvironmentP", "roomId"]
+- !private ["So18UITraitEnvironmentP", "rooms"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
+- !private ["So23UIUserActivityRestoringP", "DataService"]
+- !private ["So23UIUserActivityRestoringP", "IndexPath"]
+- ["So23UIUserActivityRestoringP", "Room"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "collectionView"]
+- !private ["So23UIUserActivityRestoringP", "configureCell"]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "indexPath"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "insertItems"]
+- !private ["So23UIUserActivityRestoringP", "roomId"]
+- !private ["So23UIUserActivityRestoringP", "rooms"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "configureCell"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "indexPath"]
+- !private ["So6UIViewC", "insertItems"]
+- !private ["So16UIViewControllerC", "Auth"]
+- !private ["So16UIViewControllerC", "ChatViewController"]
+- !private ["So16UIViewControllerC", "DataService"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "LoginViewController"]
+- ["So16UIViewControllerC", "Room"]
+- !private ["So16UIViewControllerC", "RoomCollectionViewCell"]
+- ["So16UIViewControllerC", "SignOut"]
+- ["So16UIViewControllerC", "UICollectionView"]
+- ["So16UIViewControllerC", "UICollectionViewCell"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "collectionView"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "roomId"]
+- ["So16UIViewControllerC", "rooms"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Room"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roomId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rooms"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "item"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "configureCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "indexPath"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "insertItems"]
+depends-nominal:
+- "Sa"
+- !private "So7FIRAuthC"
+- "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "9GroupChat0B14ViewControllerC"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- !private "9GroupChat11DataServiceC"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sk"
+- "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9GroupChat4RoomC"
+- !private "9GroupChat22RoomCollectionViewCellC"
+- "9GroupChat28RoomCollectionViewControllerC"
+- "ST"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So24UICollectionReusableViewC"
+- !private "So16UICollectionViewC"
+- !private "So20UICollectionViewCellC"
+- "So26UICollectionViewControllerC"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So17UIStoryboardSegueC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c62b29fc68ed4ccbc0eeadcec1d07347"

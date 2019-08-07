@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "37268462f517f22e039a7985b7022476"
+build_time: [1565154897, 767839000]
+inputs:
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/ViewController/ProfileTableViewController.swift": [1563784073, 2196550]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/ViewController/Login,Signup VC/SignUpViewController.swift": [1563800548, 766666174]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/ViewController/Room VC/RoomCollectionViewController.swift": [1564055368, 113106012]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/ViewController/ChatViewController.swift": [1564054470, 37383556]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/Room.swift": [1563879968, 123258114]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/ChatTableViewCell.swift": [1564054981, 74234128]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/ViewController/Login,Signup VC/LoginViewController.swift": [1563882116, 436052680]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/AppDelegate.swift": [1563882190, 416486621]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/ViewController/Room VC/CreateRoomViewController.swift": [1563824315, 364719272]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/DataService.swift": [1564041382, 758391738]
+  "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/GroupChat/RoomCollectionViewCell.swift": [1563867151, 164504409]

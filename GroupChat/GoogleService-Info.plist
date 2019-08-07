@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>300119557643-0i2051ug04fll2ibt82eipbbtbovci58.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.300119557643-0i2051ug04fll2ibt82eipbbtbovci58</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>300119557643-t3f0j6bjhbn14a6lohnd3gb1cb44ot11.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBvIeNRt0MbPsx5KwzYtQqyqI1smvJaPSY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>300119557643</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.samet.GroupChat</string>
+	<key>PROJECT_ID</key>
+	<string>fir-chatapp-9940e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-chatapp-9940e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:300119557643:ios:37967395046f46f6</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-chatapp-9940e.firebaseio.com</string>
+</dict>
+</plist>

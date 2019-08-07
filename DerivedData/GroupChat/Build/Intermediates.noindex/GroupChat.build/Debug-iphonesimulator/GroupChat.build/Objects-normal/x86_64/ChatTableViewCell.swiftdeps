@@ -1,0 +1,581 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChatTableViewCell"
+provides-nominal:
+- "9GroupChat0B13TableViewCellC"
+provides-member:
+- ["9GroupChat0B13TableViewCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "messageTextLabel"
+- "messageTextLabelyou"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Auth"
+- "ChatTableViewCell"
+- !private "DataService"
+- !private "Database"
+- "String"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["Sa", "init"]
+- ["So7FIRAuthC", "auth"]
+- ["So7FIRAuthC", "currentUser"]
+- ["SK", "init"]
+- ["So15CALayerDelegateP", "Auth"]
+- !private ["So15CALayerDelegateP", "DataService"]
+- !private ["So15CALayerDelegateP", "Database"]
+- ["So15CALayerDelegateP", "String"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "messageTextLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "DataService"]
+- !private ["s7CVarArgP", "Database"]
+- ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "child"]
+- !private ["s7CVarArgP", "childByAutoId"]
+- ["s7CVarArgP", "currentUser"]
+- !private ["s7CVarArgP", "database"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "key"]
+- !private ["s7CVarArgP", "messageTextLabel"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "observeSingleEvent"]
+- !private ["s7CVarArgP", "reference"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "uid"]
+- ["9GroupChat0B13TableViewCellC", "Auth"]
+- !private ["9GroupChat0B13TableViewCellC", "DataService"]
+- !private ["9GroupChat0B13TableViewCellC", "Database"]
+- ["9GroupChat0B13TableViewCellC", "String"]
+- ["9GroupChat0B13TableViewCellC", "UILabel"]
+- ["9GroupChat0B13TableViewCellC", "arr"]
+- ["9GroupChat0B13TableViewCellC", "awakeFromNib"]
+- ["9GroupChat0B13TableViewCellC", "configCell"]
+- ["9GroupChat0B13TableViewCellC", "deinit"]
+- ["9GroupChat0B13TableViewCellC", "init"]
+- ["9GroupChat0B13TableViewCellC", "messageTextLabel"]
+- ["9GroupChat0B13TableViewCellC", "messageTextLabelyou"]
+- ["9GroupChat0B13TableViewCellC", "uid"]
+- ["Sl", "init"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "DataService"]
+- !private ["s28CustomDebugStringConvertibleP", "Database"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
+- !private ["s28CustomDebugStringConvertibleP", "childByAutoId"]
+- ["s28CustomDebugStringConvertibleP", "currentUser"]
+- !private ["s28CustomDebugStringConvertibleP", "database"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "messageTextLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "observeSingleEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "reference"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "uid"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "DataService"]
+- !private ["s23CustomStringConvertibleP", "Database"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "childByAutoId"]
+- ["s23CustomStringConvertibleP", "currentUser"]
+- !private ["s23CustomStringConvertibleP", "database"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "messageTextLabel"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "observeSingleEvent"]
+- !private ["s23CustomStringConvertibleP", "reference"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "uid"]
+- !private ["So16FIRDataEventTypeV", "value"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["9GroupChat11DataServiceC", "PEOPLE_REF"]
+- !private ["9GroupChat11DataServiceC", "dataService"]
+- !private ["So15FIRDataSnapshotC", "key"]
+- !private ["So11FIRDatabaseC", "database"]
+- !private ["So11FIRDatabaseC", "reference"]
+- !private ["So16FIRDatabaseQueryC", "child"]
+- !private ["So16FIRDatabaseQueryC", "childByAutoId"]
+- !private ["So16FIRDatabaseQueryC", "observe"]
+- !private ["So16FIRDatabaseQueryC", "observeSingleEvent"]
+- !private ["So20FIRDatabaseReferenceC", "child"]
+- !private ["So20FIRDatabaseReferenceC", "childByAutoId"]
+- !private ["So20FIRDatabaseReferenceC", "observe"]
+- !private ["So20FIRDatabaseReferenceC", "observeSingleEvent"]
+- ["Se", "init"]
+- !private ["Se", "text"]
+- ["SE", "init"]
+- !private ["SE", "text"]
+- ["SQ", "Auth"]
+- !private ["SQ", "DataService"]
+- !private ["SQ", "Database"]
+- ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "auth"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "child"]
+- !private ["SQ", "childByAutoId"]
+- ["SQ", "currentUser"]
+- !private ["SQ", "database"]
+- ["SQ", "init"]
+- !private ["SQ", "key"]
+- !private ["SQ", "messageTextLabel"]
+- !private ["SQ", "observe"]
+- !private ["SQ", "observeSingleEvent"]
+- !private ["SQ", "reference"]
+- !private ["SQ", "text"]
+- ["SQ", "uid"]
+- !private ["SQ", "value"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["SH", "Auth"]
+- !private ["SH", "DataService"]
+- !private ["SH", "Database"]
+- ["SH", "String"]
+- ["SH", ""]
+- ["SH", "auth"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "child"]
+- !private ["SH", "childByAutoId"]
+- ["SH", "currentUser"]
+- !private ["SH", "database"]
+- ["SH", "init"]
+- !private ["SH", "key"]
+- !private ["SH", "messageTextLabel"]
+- !private ["SH", "observe"]
+- !private ["SH", "observeSingleEvent"]
+- !private ["SH", "reference"]
+- !private ["SH", "text"]
+- ["SH", "uid"]
+- !private ["SH", "value"]
+- ["SM", "init"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSCodingP", "Auth"]
+- !private ["So8NSCodingP", "DataService"]
+- !private ["So8NSCodingP", "Database"]
+- ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "messageTextLabel"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "Auth"]
+- !private ["So8NSObjectC", "DataService"]
+- !private ["So8NSObjectC", "Database"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "arr"]
+- ["So8NSObjectC", "auth"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "child"]
+- !private ["So8NSObjectC", "childByAutoId"]
+- ["So8NSObjectC", "configCell"]
+- ["So8NSObjectC", "currentUser"]
+- !private ["So8NSObjectC", "database"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "key"]
+- ["So8NSObjectC", "messageTextLabel"]
+- ["So8NSObjectC", "messageTextLabelyou"]
+- !private ["So8NSObjectC", "observe"]
+- !private ["So8NSObjectC", "observeSingleEvent"]
+- !private ["So8NSObjectC", "reference"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "uid"]
+- ["So8NSObjectP", "Auth"]
+- !private ["So8NSObjectP", "DataService"]
+- !private ["So8NSObjectP", "Database"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "child"]
+- !private ["So8NSObjectP", "childByAutoId"]
+- ["So8NSObjectP", "currentUser"]
+- !private ["So8NSObjectP", "database"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "key"]
+- !private ["So8NSObjectP", "messageTextLabel"]
+- !private ["So8NSObjectP", "observe"]
+- !private ["So8NSObjectP", "observeSingleEvent"]
+- !private ["So8NSObjectP", "reference"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "uid"]
+- !private ["Sq", "text"]
+- ["Sk", "init"]
+- ["Sm", "init"]
+- !private ["SY", "value"]
+- ["ST", "init"]
+- ["So29UIAccessibilityIdentificationP", "Auth"]
+- !private ["So29UIAccessibilityIdentificationP", "DataService"]
+- !private ["So29UIAccessibilityIdentificationP", "Database"]
+- ["So29UIAccessibilityIdentificationP", "String"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "messageTextLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So12UIAppearanceP", "Auth"]
+- !private ["So12UIAppearanceP", "DataService"]
+- !private ["So12UIAppearanceP", "Database"]
+- ["So12UIAppearanceP", "String"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "messageTextLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "Auth"]
+- !private ["So21UIAppearanceContainerP", "DataService"]
+- !private ["So21UIAppearanceContainerP", "Database"]
+- ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "messageTextLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So17UICoordinateSpaceP", "Auth"]
+- !private ["So17UICoordinateSpaceP", "DataService"]
+- !private ["So17UICoordinateSpaceP", "Database"]
+- ["So17UICoordinateSpaceP", "String"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "messageTextLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So13UIDynamicItemP", "Auth"]
+- !private ["So13UIDynamicItemP", "DataService"]
+- !private ["So13UIDynamicItemP", "Database"]
+- ["So13UIDynamicItemP", "String"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "messageTextLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "Auth"]
+- !private ["So18UIFocusEnvironmentP", "DataService"]
+- !private ["So18UIFocusEnvironmentP", "Database"]
+- ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "messageTextLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So11UIFocusItemP", "Auth"]
+- !private ["So11UIFocusItemP", "DataService"]
+- !private ["So11UIFocusItemP", "Database"]
+- ["So11UIFocusItemP", "String"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "messageTextLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So20UIFocusItemContainerP", "Auth"]
+- !private ["So20UIFocusItemContainerP", "DataService"]
+- !private ["So20UIFocusItemContainerP", "Database"]
+- ["So20UIFocusItemContainerP", "String"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "messageTextLabel"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- ["So27UIGestureRecognizerDelegateP", "Auth"]
+- !private ["So27UIGestureRecognizerDelegateP", "DataService"]
+- !private ["So27UIGestureRecognizerDelegateP", "Database"]
+- ["So27UIGestureRecognizerDelegateP", "String"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "messageTextLabel"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So30UIPasteConfigurationSupportingP", "DataService"]
+- !private ["So30UIPasteConfigurationSupportingP", "Database"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "messageTextLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "Auth"]
+- !private ["So11UIResponderC", "DataService"]
+- !private ["So11UIResponderC", "Database"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "arr"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "configCell"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "messageTextLabel"]
+- ["So11UIResponderC", "messageTextLabelyou"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "uid"]
+- ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "DataService"]
+- !private ["So30UIResponderStandardEditActionsP", "Database"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "messageTextLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So15UITableViewCellC", "Auth"]
+- !private ["So15UITableViewCellC", "DataService"]
+- !private ["So15UITableViewCellC", "Database"]
+- ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "arr"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "configCell"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "messageTextLabel"]
+- ["So15UITableViewCellC", "messageTextLabelyou"]
+- ["So15UITableViewCellC", "uid"]
+- ["So18UITraitEnvironmentP", "Auth"]
+- !private ["So18UITraitEnvironmentP", "DataService"]
+- !private ["So18UITraitEnvironmentP", "Database"]
+- ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "messageTextLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So23UIUserActivityRestoringP", "Auth"]
+- !private ["So23UIUserActivityRestoringP", "DataService"]
+- !private ["So23UIUserActivityRestoringP", "Database"]
+- ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "messageTextLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So6UIViewC", "Auth"]
+- !private ["So6UIViewC", "DataService"]
+- !private ["So6UIViewC", "Database"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "arr"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "configCell"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "messageTextLabel"]
+- ["So6UIViewC", "messageTextLabelyou"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "uid"]
+- ["So7FIRUserC", "uid"]
+- ["So11FIRUserInfoP", "uid"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Database"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "childByAutoId"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messageTextLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observeSingleEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Auth"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "DataService"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Database"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "String"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "messageTextLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "Sa"
+- "So7FIRAuthC"
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "9GroupChat0B13TableViewCellC"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So16FIRDataEventTypeV"
+- "10Foundation12DataProtocolP"
+- !private "9GroupChat11DataServiceC"
+- !private "So15FIRDataSnapshotC"
+- !private "So11FIRDatabaseC"
+- !private "So16FIRDatabaseQueryC"
+- !private "So20FIRDatabaseReferenceC"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So7FIRUserC"
+- "So11FIRUserInfoP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/DerivedData/GroupChat/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/kandyclients/Desktop/Backup/Backup 8/GroupChat/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4d571da21200f1bd4279d67857e1adf7"
